@@ -1,17 +1,26 @@
 # 📱 Mobile Sales Analytics & Performance Dashboard
 
+> **Repository Description**: An interactive Microsoft Power BI executive dashboard and analytics project analyzing **₹76.92 Cr** in mobile phone sales across **3,835 transactions** and **19 Indian cities** (2021–2024), featuring market share benchmarks, regional sales hotspots, payment method trends, customer ratings, and dynamic DAX metrics.
+
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
 [![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
 [![Data Analytics](https://img.shields.io/badge/Business_Intelligence-Data_Analytics-orange?style=for-the-badge)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-An end-to-end Business Intelligence solution analyzing multi-brand smartphone sales across major Indian metropolitan markets from 2021 to 2024. Built with **Microsoft Power BI** and **Microsoft Excel**, this interactive dashboard delivers actionable insights into revenue performance, product popularity, geographic distribution, payment preferences, and customer satisfaction.
+---
+
+## 🖥️ Dashboard Preview
+
+![Mobile Sales Power BI Dashboard](assets/dashboard_overview.png)
 
 ---
 
 ## 📌 Executive Summary & Key KPIs
 
-Across **3,835 transactions** recorded between 2021 and 2024:
+![KPI Metrics](assets/kpi_cards.png)
+
+Across **3,835 transactions** recorded between **October 2021 and 2024**:
 
 | Metric | Value | Description |
 |---|---|---|
@@ -28,7 +37,10 @@ Across **3,835 transactions** recorded between 2021 and 2024:
 ```text
 ├── 📊 mobile sales dashboard.pbix     # Interactive Power BI Dashboard file
 ├── 📑 Mobile Sales Data.xlsx          # Raw dataset containing 3,835 transaction records
-├── 📁 assets/                         # Visual assets and icons used in the dashboard
+├── 📁 assets/                         # Visual assets, dashboard screenshots, and icons
+│   ├── dashboard_overview.png         # Full high-resolution dashboard screenshot
+│   ├── kpi_cards.png                  # KPI metrics header close-up
+│   ├── dashboard_visuals.png          # Analytics visual grid screenshot
 │   ├── mobile_logo.png
 │   ├── average_icon.png
 │   ├── quantity_icon.png
@@ -40,6 +52,8 @@ Across **3,835 transactions** recorded between 2021 and 2024:
 ---
 
 ## 📊 Dashboard Visualizations & Architecture
+
+![Visual Analytics](assets/dashboard_visuals.png)
 
 The Power BI report (`mobile sales dashboard.pbix`) is designed with a sleek dark-blue themed layout (`#0060AA`), visual hierarchy, and cross-filtering capabilities:
 
@@ -65,7 +79,7 @@ The Power BI report (`mobile sales dashboard.pbix`) is designed with a sleek dar
 - Details digital payment penetration vs. traditional cash on delivery.
 
 ### 6. ⭐ Customer Satisfaction Funnel (Funnel Chart)
-- Visualizes the conversion and distribution of customer feedback scores from **1-star** to **5-star**.
+- Visualizes the distribution of customer feedback scores from **1-star** to **5-star** (1,488 five-star reviews).
 
 ### 7. 📅 Sales Trend by Day of Week (Area Chart)
 - Maps consumer purchasing patterns across weekdays vs. weekends (Monday through Sunday).
@@ -175,8 +189,8 @@ Average = DIVIDE([Total Sales], [Transactions], 0)
 ### Steps to Run
 1. **Clone this repository**:
    ```bash
-   git clone <REPO_URL>
-   cd powerbi
+   git clone https://github.com/parthgarg0/mobile-sales-powerbi-dashboard.git
+   cd mobile-sales-powerbi-dashboard
    ```
 2. **Open the Dashboard**:
    - Double-click on `mobile sales dashboard.pbix` to launch the report in **Power BI Desktop**.
@@ -200,4 +214,5 @@ Average = DIVIDE([Total Sales], [Transactions], 0)
 
 ## 👤 Author
 - **Parth Garg**
+- GitHub: [@parthgarg0](https://github.com/parthgarg0)
 - Email: `parthxgarg@gmail.com`
