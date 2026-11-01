@@ -1,0 +1,17 @@
+# Temporary Excel lock files
+~$*.xlsx
+~$*.xls
+
+# Power BI temporary & backup files
+*.pbit.backup
+*.pbix.backup
+
+# System files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+
+# Python cache (if any analysis scripts are run)
+__pycache__/
+*.py[cod]
