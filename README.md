@@ -10,15 +10,15 @@
 
 ---
 
-## 🖥️ Dashboard Preview
+## 🖥️ Dashboard Overview (Full Report)
 
-![Mobile Sales Power BI Dashboard](assets/dashboard_overview.png)
+![Mobile Sales Power BI Dashboard - Full View](assets/dashboard_overview.png)
 
 ---
 
 ## 📌 Executive Summary & Key KPIs
 
-![KPI Metrics](assets/kpi_cards.png)
+![Executive KPI Cards](assets/kpi_cards.png)
 
 Across **3,835 transactions** recorded between **October 2021 and 2024**:
 
@@ -51,9 +51,11 @@ Across **3,835 transactions** recorded between **October 2021 and 2024**:
 
 ---
 
-## 📊 Dashboard Visualizations & Architecture
+## 📊 Dashboard Visualizations & Dynamic Cross-Filtering
 
-![Visual Analytics](assets/dashboard_visuals.png)
+![Interactive Visual Analytics & Monthly Cross-Filtering](assets/dashboard_visuals.png)
+
+*The dashboard supports dynamic cross-filtering (as demonstrated above when filtering by July), updating the geographical bubble map, ratings funnel, payment breakdown, and brand metrics in real time.*
 
 The Power BI report (`mobile sales dashboard.pbix`) is designed with a sleek dark-blue themed layout (`#0060AA`), visual hierarchy, and cross-filtering capabilities:
 
